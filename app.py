@@ -5,7 +5,7 @@ import json
 app = Flask(__name__)
 app.secret_key = 'replace-with-a-secure-key'
 
-# --- Part 1: static JSON API --- ssgit checkout master_1
+# --- Part 1: static JSON API --- ssgit checkout master_1s
 @app.route('/api')
 def get_data():
     with open('data.json', 'r') as f:
